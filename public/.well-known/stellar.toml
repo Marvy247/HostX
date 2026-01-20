@@ -1,0 +1,457 @@
+# Example stellar.toml
+
+NETWORK_PASSPHRASE="Test SDF Network ; September 2015" # Use the testnet passphrase for testing
+VERSION="1.0.0"
+
+# ISSUER INFORMATION
+FEDERATION_SERVER="https://localhost:3000/federation"
+AUTH_SERVER="https://localhost:3000/auth"
+TRANSFER_SERVER="https://localhost:3000/transfer"
+ACCOUNTS=[
+    "GISSUERACCOUNTPUBLICKEY" # Replace with your issuer account's public key
+]
+ORG_NAME="Your Organization Name"
+ORG_URL="https://localhost:3000"
+ORG_LOGO="https://localhost:3000/logo.png" # Update with a local image URL if needed
+ORG_DESCRIPTION="HostX is a decentralized ticketing platform"
+ORG_PHYSICAL_ADDRESS="Guadalajara, Jalisco, Mexico"
+ORG_GITHUB="https://github.com/JoseCToscano"
+
+# ASSET DETAILS
+[[CURRENCIES]]
+code="HOSTXX10001"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="ENTRY0010002"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10002"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10003"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+
+[[CURRENCIES]]
+code="HOSTXX10004"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10005"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10006"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10007"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10008"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10009"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10010"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10011"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10012"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX10013"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20001"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20002"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20003"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+
+[[CURRENCIES]]
+code="HOSTXX20004"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20005"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20006"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20007"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20008"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20009"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20010"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20011"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20012"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX20013"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Ticket Entry"
+desc="HostX is a decentralized ticketing platform"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXXC0001"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Acoustic Starry Night"
+desc="HostX's ticket for Acoustic Starry Night"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX50001"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Meridian 2024"
+desc="HostX's ticket for Meridian 2024: Early Bird"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX50002"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Meridian 2024"
+desc="HostX's ticket for Meridian 2024: General Access"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX50003"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Meridian 2024"
+desc="HostX's ticket for Meridian 2024: VIP Experience"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX60001"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Blockchain & Beers"
+desc="HostX's ticket for Blockchain & Beers"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+[[CURRENCIES]]
+code="HOSTXX60001"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Digital Art Fair"
+desc="HostX's ticket for Digital Art Fair: General Access"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
+
+
+[[CURRENCIES]]
+code="HOSTXX80001"
+issuer="GCUKFNNR35HDXU5GPFPMVTVWKNHFP7KK2VRWP7PJBZB2RKKXXWLALXIH"
+status="live"
+display_decimals=2
+name="Quantum Computing Conference"
+desc="HostX's ticket for Quantum Computing Conference: 3 Day pass"
+conditions="Decentralized Ticket Entry"
+desc="Decentralized Ticket Entry"
+image="https://hostx.me/hostx-icon.svg"
+fixed_number=1000000
+max_number=10000000
