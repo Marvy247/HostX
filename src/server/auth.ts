@@ -1,9 +1,6 @@
 import { PrismaAdapter } from "@auth/prisma-adapter";
-import {
-  getServerSession,
-  type DefaultSession,
-  type NextAuthOptions,
-} from "next-auth";
+import NextAuth from "next-auth";
+import { type DefaultSession } from "next-auth";
 import { type Adapter } from "next-auth/adapters";
 import { db } from "~/server/db";
 
@@ -34,9 +31,9 @@ declare module "next-auth" {
  *
  * @see https://next-auth.js.org/configuration/options
  */
-export const authOptions: NextAuthOptions = {
+export const authOptions = {
   callbacks: {
-    session: ({ session, user }) => ({
+    session: ({ session, user }: { session: any; user: any }) => ({
       ...session,
       user: {
         ...session.user,
@@ -46,6 +43,9 @@ export const authOptions: NextAuthOptions = {
   },
   adapter: PrismaAdapter(db) as Adapter,
   providers: [],
+  pages: {
+    signIn: "/login",
+  },
 };
 
 /**
@@ -53,4 +53,7 @@ export const authOptions: NextAuthOptions = {
  *
  * @see https://next-auth.js.org/configuration/nextjs
  */
-export const getServerAuthSession = () => getServerSession(authOptions);
+export const { handlers, auth, signIn, signOut } = NextAuth(authOptions);
+
+export const getServerAuthSession = () => auth();
+
