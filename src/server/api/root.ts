@@ -166,9 +166,14 @@ export const appRouter = createTRPCRouter({
     }
   }),
   fundAccount: publicProcedure.query(async () => {
+    if (!env.ISSUER_PUBLIC_KEY) {
+      throw new Error("ISSUER_PUBLIC_KEY is not configured");
+    }
     try {
       const response = await fetch(
-        `https://friendbot.stellar.org?addr=${encodeURIComponent(env.ISSUER_PUBLIC_KEY)}`,
+        `https://friendbot.stellar.org?addr=${encodeURIComponent(
+          env.ISSUER_PUBLIC_KEY,
+        )}`,
       );
       response
         .json()

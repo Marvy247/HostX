@@ -12,7 +12,7 @@ export const env = createEnv({
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
-    ISSUER_PUBLIC_KEY: z.string().optional(),
+    ISSUER_PUBLIC_KEY: z.string().default(""),
     ISSUER_PRIVATE_KEY: z.string().optional(),
     CLERK_SECRET_KEY: z.string().optional(),
     DOMAIN: z.string().default("hostx.me"),
