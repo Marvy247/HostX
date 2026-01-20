@@ -43,7 +43,7 @@ export default function AuthenticationPage() {
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
           <div className="absolute inset-0 bg-zinc-900" />
           <div className="relative z-20 flex items-center text-lg font-medium">
-            entry
+            Host
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="100"

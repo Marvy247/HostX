@@ -13,7 +13,7 @@ import Head from "next/head";
 import Loading from "~/app/account/components/loading";
 
 // export const metadata: Metadata = {
-//   title: "Entry•X",
+//   title: "HostX",
 //   description: "Decentralized event ticketing platform",
 //   icons: [{ rel: "icon", url: "/favicon.ico" }],
 // };
@@ -24,13 +24,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <Head>
-        <title>Entry•X</title>
+        <title>HostX</title>
         <meta
           name="description"
           content="Decentralized event ticketing platform"
         />
-        <meta property="og:site_name" content="Entry•X" />
-        <meta property="og:title" content="Entry•X" />
+        <meta property="og:site_name" content="HostX" />
+        <meta property="og:title" content="HostX" />
         <meta
           property="og:description"
           content="Decentralized event ticketing platform"

@@ -12,7 +12,7 @@ export default function Logo({ className }: { className?: string }) {
           className,
         )}
       >
-        ENTRY
+        Host
         <Icons.LogoNoBg className="h-5 w-5" />
       </Badge>
     </Link>

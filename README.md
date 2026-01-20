@@ -1,6 +1,6 @@
 ![Join HostX Image](https://utfs.io/f/1a2fb0fd-a49e-4ba4-bcd6-60d7f477bcc3-e5vxbx.m..png)
 
-# Entry•X Decentralized Ticketing and Reselling dApp
+# HostX Decentralized Ticketing and Reselling dApp
 Welcome to HostX! This platform leverages the power of the Stellar blockchain to create a secure, transparent, and efficient marketplace for event tickets. 
 Users can purchase, manage, and resell their tickets with ease, all while ensuring the authenticity of their assets.
 
@@ -90,14 +90,14 @@ At the moment, the latest version of the Deployed Smart Contract is kept as Envi
 Each Deployed Asset and Auction should keep track of the latest version of the Smart Contract they are using.
 
 ### Publishing Events
-This video shows how to create and publish an event on the Entry•X platform. Watch the video to learn how to set up your event, issue tickets, and manage your event page.
+This video shows how to create and publish an event on the HostX platform. Watch the video to learn how to set up your event, issue tickets, and manage your event page.
 
 [![Watch the video](https://img.youtube.com/vi/dBaJ4eNTueQ/maxresdefault.jpg)](https://youtu.be/dBaJ4eNTueQ)
 
 
 ### Purchasing Tickets
 
-This video shows how to purchase tickets on the Entry•X platform. Watch the video to learn how to browse available events, select the event you want to attend, and purchase your ticket using the Freighter wallet.
+This video shows how to purchase tickets on the HostX platform. Watch the video to learn how to browse available events, select the event you want to attend, and purchase your ticket using the Freighter wallet.
 
 [![Watch the video](https://img.youtube.com/vi/Vwx78gwfvWY/maxresdefault.jpg)](https://youtu.be/Vwx78gwfvWY)
 

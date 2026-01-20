@@ -246,7 +246,7 @@ export default function Component() {
                 <h2 className="flex items-center justify-center gap-2 text-3xl font-bold tracking-tighter sm:text-5xl">
                   Why Choose{" "}
                   <span className="flex w-fit items-center justify-center rounded-lg bg-gradient-to-br from-black to-gray-400 py-0 pl-4 text-white">
-                    ENTRY
+                    Host
                     <Icons.LogoNoBg className="h-16 w-16" />
                   </span>
                   ?

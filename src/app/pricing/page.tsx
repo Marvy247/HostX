@@ -42,7 +42,7 @@ export default function Pricing() {
                 processing your ticket purchase. That all goes to platform
                 maintenance and to further development of the{" "}
                 <span className="text-sm font-semibold text-black">
-                  ENTRY
+                  Host
                   <Icons.Logo className="-mt-1 inline h-5 w-5" />
                 </span>{" "}
                 platform.

@@ -12,7 +12,7 @@ const Footer = () => (
           <Badge
             className={cn("border-0 bg-gradient-to-r from-black to-gray-700")}
           >
-            ENTRY
+            Host
             <Icons.LogoNoBg className="color h-5 w-5 text-black" />
           </Badge>
         </h1>
@@ -55,7 +55,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="mt-10 text-xs font-light">
-      <p>© 2024 Entry•X | All rights reserved.</p>
+      <p>© 2026 HostX | All rights reserved.</p>
     </div>
   </footer>
 );
